@@ -1,0 +1,122 @@
+/*********************************************/
+                    /*Main*/
+/*********************************************/
+#container {
+    background-color: #D6EAFF;
+}
+
+#menu {
+    align-content: center;
+}
+
+.navigationMenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #14dbee;
+}
+.navigationMenu li{
+    display:inline;
+}
+
+.navigationMenu li a{
+    display: inline-block;
+    color: #fff6e6;
+    font-size: x-large;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigationMenu li a:hover{
+    background-color: #50b4ff;
+}
+
+#category {
+    line-height: 30px;
+    background-color: #eeeeee;
+    height: 100%;
+    width: 180px;
+    float: left;
+    padding: 5px;
+}
+
+#application {
+    /*background-color: #D6EAFF;*/
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+    align-content: center;
+    position: fixed;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*********************************************/
+                /*Most popular*/
+/*********************************************/
+#gallery {
+
+}
+
+#gallery {
+    margin:0 auto;
+    width:100%;
+    height: 250px;
+    text-align: center;
+    background-color: #fff6e6;
+}
+
+#gallery .slide {
+    margin:0 auto;
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    background: #666;
+    color: #aaa;
+    border-style: solid;
+}
+
+/*********************************************/
+            /*Application page*/
+/*********************************************/
+
+#application table.applicationTable
+{
+    table-layout: fixed;
+    width: 80%;
+}
+
+#application table.applicationTable td {
+    max-width: 800px;
+    word-wrap: break-word;
+}
+
+#buttonDownloadSector {
+    color: #0d6db6;
+    padding: 1%;
+}
+
+/*********************************************/
+                /*Error page*/
+/*********************************************/
+#errorMessage{
+    background-color: #ffd3cd;
+    border: #ff0e15;
+    text-line-through-color: #3338ff;
+    padding: 3%;
+}
+
+#errorMessage p{
+    font-family: "Comic Sans MS";
+    font-size: 450%;
+    color: #ff0e15;
+}
